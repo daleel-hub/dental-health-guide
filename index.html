@@ -1,0 +1,14 @@
+---
+layout: default
+title: دليلك لصحة الأسنان
+---
+<section class="intro">
+<h1>دليلك لصحة الأسنان وجمال الابتسامة</h1>
+<p>مقالات عربية مبسطة تشرح علاجات الأسنان الشائعة مثل الزراعة والتبييض والتجميل وخلع ضرس العقل، لتساعدك على فهم حالتك وطرح الأسئلة الصحيحة على طبيبك قبل بدء أي علاج.</p>
+</section>
+<h2>أحدث المقالات</h2>
+<ul class="post-list">
+{% for post in site.posts %}
+<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a><p>{{ post.description }}</p></li>
+{% endfor %}
+</ul>

@@ -1,0 +1,13 @@
+title: دليلك لصحة الأسنان
+description: مقالات عربية مبسطة عن علاج الأسنان وتجميلها والعناية بصحة الفم
+lang: ar
+locale: ar_EG
+url: "https://daleel-hub.github.io"
+baseurl: "/dental-health-guide"
+permalink: /:title/
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - README.md
